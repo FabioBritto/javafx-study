@@ -13,4 +13,13 @@ public class Utils {
 		Stage currentStage = (Stage) ((Node)event.getSource()).getScene().getWindow();
 		return currentStage;
 	}
+	
+	public static Integer tryParseToInt(String str) {
+		try {
+			return Integer.parseInt(str);
+		}
+		catch(NumberFormatException e) {
+			return null;
+		}
+	}
 }
