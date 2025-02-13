@@ -3,6 +3,8 @@ package model.services;
 import java.util.ArrayList;
 import java.util.List;
 
+import gui.util.Alerts;
+import javafx.scene.control.Alert.AlertType;
 import model.dao.DaoFactory;
 import model.dao.DepartmentDao;
 import model.entities.Department;
@@ -13,7 +15,6 @@ public class DepartmentService {
 
 	
 	public List<Department> findAll(){
-		System.out.println("department service");
 		return dao.findAll();
 	}
 	
@@ -24,5 +25,9 @@ public class DepartmentService {
 		else {
 			dao.update(department);
 		}
+	}
+	
+	public void remove(Department department) {
+		dao.deleteById(department.getId());
 	}
 }
