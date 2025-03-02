@@ -57,7 +57,7 @@ Antes de executar o projeto, certifique-se de ter instalado:
 
 1. **Clonar o repositório**
    ```bash
-   git clone [https://github.com/seu-usuario/javafx-study.git](https://github.com/FabioBritto/javafx-study.git)
+   git clone https://github.com/seu-usuario/javafx-study.git
    cd javafx-study
    ```
 2. **Configurar o banco de dados**
