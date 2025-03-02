@@ -28,11 +28,11 @@ O projeto possui uma estrutura simples, focada no aprendizado e seguindo o padr�
 
 ## ⚙ Funcionalidades Implementadas
 
-✔ CRUD completo para **Seller** (Vendedor) e **Department** (Departamento).
-✔ Interface gráfica desenvolvida com **JavaFX**. 
-✔ Conexão com **MySQL** utilizando **JDBC** puro.
-✔ Atualização dinâmica da tabela conforme operações são realizadas.
-✔ Tratamento de exceções para garantir estabilidade do sistema.
+1. ✔ CRUD completo para **Seller** (Vendedor) e **Department** (Departamento).
+2. ✔ Interface gráfica desenvolvida com **JavaFX**. 
+3. ✔ Conexão com **MySQL** utilizando **JDBC** puro.
+4. ✔ Atualização dinâmica da tabela conforme operações são realizadas.
+5. ✔ Tratamento de exceções para garantir estabilidade do sistema.
 
 ## 🖥 Demonstração do Funcionamento
 
