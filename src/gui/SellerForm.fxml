@@ -34,6 +34,10 @@
             <Label text="Name" GridPane.rowIndex="2" />
             <TextField fx:id="txtId" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <TextField fx:id="txtName" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="txtEmail" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <DatePicker fx:id="dpBirthDate" prefHeight="25.0" prefWidth="270.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField fx:id="txtBaseSalary" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+            <ComboBox fx:id="cmbDepartment" prefHeight="25.0" prefWidth="270.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
             <Label fx:id="lblErrorName" textFill="#e80606" GridPane.columnIndex="2" GridPane.rowIndex="2" />
             <HBox prefHeight="100.0" prefWidth="200.0" spacing="10.0" GridPane.columnIndex="1" GridPane.rowIndex="7">
                <children>
@@ -44,14 +48,10 @@
             <Label text="Email" GridPane.rowIndex="3" />
             <Label prefHeight="17.0" prefWidth="66.0" text="Birth Date" GridPane.rowIndex="4" />
             <Label text="Base Salary" GridPane.rowIndex="5" />
-            <TextField fx:id="txtEmail" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="3" />
-            <TextField fx:id="txtBaseSalary" editable="false" prefHeight="25.0" prefWidth="185.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
             <Label text="Department" GridPane.rowIndex="6" />
-            <DatePicker fx:id="dpBirthDate" prefHeight="25.0" prefWidth="270.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
             <Label fx:id="lblErrorBirthDate" textFill="#e11212" GridPane.columnIndex="2" GridPane.rowIndex="4" />
             <Label fx:id="lblErrorEmail" textFill="#d00c0c" GridPane.columnIndex="2" GridPane.rowIndex="3" />
             <Label fx:id="lblErrorBaseSalary" textFill="#d00c0c" GridPane.columnIndex="2" GridPane.rowIndex="5" />
-            <ComboBox fx:id="cmbDepartment" prefHeight="25.0" prefWidth="270.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
          </children>
       </GridPane>
    </children>
